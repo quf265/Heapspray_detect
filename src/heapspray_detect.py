@@ -59,7 +59,7 @@ from sklearn.feature_extraction import DictVectorizer
 import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning, message="X does not have valid feature names")
-adaboost_model = joblib.load('adaboost_model.joblib')
+adaboost_model = joblib.load('./../data/adaboost_model.joblib')
 
 # signal handler
 def signal_ignore(signal, frame):
